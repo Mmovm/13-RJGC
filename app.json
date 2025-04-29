@@ -1,0 +1,27 @@
+{
+  "pages": [   "pages/first/first",
+    "pages/choiceKC/choiceKC",
+ 
+    "pages/index/index",
+    "pages/individual/individual",
+    "pages/logs/logs"
+  ],
+  "tabBar":{
+    "color": "#777",
+    "selectedColor": "#1cb9ce",
+    "list":[
+        {"pagePath": "pages/index/index","text":"单词","iconPath":"/images/word2.png","selectedIconPath":"/images/word1.png"},
+        {"pagePath": "pages/choiceKC/choiceKC","text":"课程","iconPath":"/images/KC2.png","selectedIconPath":"/images/KC1.png"},
+        {"pagePath": "pages/individual/individual","text":"我的","iconPath":"/images/me2.png","selectedIconPath":"/images/me1.png"}
+    ]
+},
+  "window": {
+    "navigationBarBackgroundColor": "#ffffff",
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "智能背单词",
+    "backgroundColor": "#eeeeee",
+    "backgroundTextStyle": "light"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

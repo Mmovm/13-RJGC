@@ -1,0 +1,11 @@
+<view class="container">
+  <view class="title">今日单词</view>
+  <view class="word-card">
+    <text class="word">{{currentWord.en}}</text>
+    <text class="translation">{{currentWord.cn}}</text>
+  </view>
+  <view class="controls">
+    <button bindtap="showTranslation">显示翻译</button>
+    <button bindtap="nextWord">下一个</button>
+  </view>
+</view>

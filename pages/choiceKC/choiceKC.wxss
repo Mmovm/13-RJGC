@@ -1,0 +1,36 @@
+/* pages/choiceKC/choiceKC.wxss */
+.blod_view{
+}
+
+.little_view{
+	display: flex;
+	border: 2px solid gray;
+	border-radius: 50rpx;
+	height: 230rpx;
+	margin: 5rpx;
+}
+
+.little_text{
+	font-size: medium;
+	margin-top: 30rpx;
+	font-weight: bold;
+}
+
+.little_text1{
+	font-size: 50rpx;
+	font-weight: bold;
+	margin: 30rpx;
+}
+
+.book_image{
+	width: 175rpx;
+	margin-left: 5%;
+	margin-top: -120rpx;
+}
+
+.choice_button{
+	margin-top: 150rpx;
+	height: 60rpx;
+	margin-right: 5%;
+	background-color: burlywood;
+}

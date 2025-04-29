@@ -1,0 +1,10 @@
+<view class="container">
+  <view class="title">欢迎使用智能背单词</view>
+  <button 
+    type="primary" 
+    open-type="getUserInfo"
+    bindgetuserinfo="onGetUserInfo"
+  >
+    微信登录
+  </button>
+</view>

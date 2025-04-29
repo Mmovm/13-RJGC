@@ -1,0 +1,11 @@
+.log-list {
+  margin-top: 20rpx;
+}
+
+.log-item {
+  padding: 30rpx;
+  background: #fff;
+  border-bottom: 1rpx solid #eee;
+  font-size: 28rpx;
+  color: #666;
+}

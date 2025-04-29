@@ -1,0 +1,30 @@
+<!--pages/choiceKC/choiceKC.wxml-->
+<scroll-view class="blod_view" scroll-y="true">
+<text class="little_text1">四六级课程</text>
+	<view class="little_view">
+		<image src="/images/6ji.png" mode="aspectFit" class="book_image" ></image>
+		<text class="little_text">六级词汇大全</text>
+		<button class="choice_button" size="mini" bindtap="buttonToSettings">选择</button>
+	</view>
+	<view class="little_view">
+		<image src="/images/6jiHX.png" mode="aspectFit" class="book_image" ></image>
+		<text class="little_text">六级核心词汇大全</text>
+		<button class="choice_button" size="mini" bindtap="buttonToSettings">选择</button>
+	</view>
+	<view class="little_view">
+		<image src="/images/4ji.png" mode="aspectFit" class="book_image" ></image>
+		<text class="little_text">四级词汇大全</text>
+		<button class="choice_button" size="mini" bindtap="buttonToSettings">选择</button>
+	</view>
+	<view class="little_view">
+		<image src="/images/4jiHX.png" mode="aspectFit" class="book_image" ></image>
+		<text class="little_text">四级核心词汇大全</text>
+		<button class="choice_button" size="mini" bindtap="buttonToSettings">选择</button>
+	</view>
+	<text class="little_text1">语法书籍</text>
+	<view class="little_view">
+		<image src="/images/4ji.png" mode="aspectFit" class="book_image" ></image>
+		<text class="little_text">语法大全</text>
+		<button class="choice_button" size="mini" bindtap="buttonToSettings">选择</button>
+	</view>
+</scroll-view>
