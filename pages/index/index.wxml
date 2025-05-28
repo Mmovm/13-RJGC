@@ -1,11 +1,41 @@
+<view class="check_view">
+  <view class="check_day_text">已打卡天数  
+  <image src="/images/红心.png"  wx:if="{{ischeck === true}}"
+  class="check_heart" mode="widthFix"></image>
+  <image src="/images/破碎心（实心）.png"  wx:else
+  class="check_heart" mode="widthFix"></image>
+  </view>
+  <view class="check_day">{{check_in_day}}</view>
+</view>
+
 <view class="container">
   <view class="title">今日单词</view>
+  
+  <!-- 单词卡片区域 -->
   <view class="word-card">
+    <!-- 英文单词显示 -->
     <text class="word">{{currentWord.en}}</text>
-    <text class="translation">{{currentWord.cn}}</text>
-  </view>
+    <view class="translation" style="{{showCn ? '' : 'opacity:0'}}">{{currentWord.cn}}</view>
+  </view> 
+
+  <!-- 操作按钮区域 -->
   <view class="controls">
-    <button bindtap="showTranslation">显示翻译</button>
-    <button bindtap="nextWord">下一个</button>
+    <!-- 显示翻译按钮 -->
+    <button 
+      type="primary" 
+      bindtap="showTranslation"
+      class="action-btn"
+    >
+      显示翻译
+    </button>
+
+    <!-- 下一个单词按钮 -->
+    <button 
+      type="default" 
+      bindtap="nextWord"
+      class="action-btn"
+    >
+      下一个
+    </button>
   </view>
 </view>

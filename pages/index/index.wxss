@@ -13,13 +13,62 @@
 }
 
 .translation {
-  display: block;
+  display:block;
   font-size: 36rpx;
   color: #7f8c8d;
   margin-top: 20rpx;
+  height: 36rpx;
+}
+
+.title{
+  display: flex;
+  justify-content: center;
+  opacity: 0;
+  transform: translateY(20rpx);
+  transition: all 0.3s ease;
+}
+
+.translation[data-show="true"] {
+  opacity: 1;
+  transform: translateY(0);
 }
 
 .controls {
   display: flex;
   gap: 20rpx;
+}
+
+.check_view{
+  display: block;
+  top: 200rpx;
+  height: 350rpx;
+  position: relative;
+  text-align: center;
+}
+.check_day_text{
+  justify-content: center;
+  font-size: 30rpx;
+  display:flex;
+  height: 40rpx;
+}
+.check_heart{
+  width:40rpx;
+  height: auto;
+}
+.check_day{
+  font-size: 80rpx;
+  font-weight: bold;
+  text-shadow: 5px 5px 5px #828282
+}
+.action-btn {
+  flex: 1;
+  margin: 0 10rpx;
+}
+
+.action-btn:first-child {
+  margin-left: 0;
+}
+
+.action-btn:last-child {
+  margin-right: 0;
 }
